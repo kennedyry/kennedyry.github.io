@@ -1,0 +1,70 @@
+
+body {
+  background-color: #f5ffea; 
+  color: gray; 
+  padding-bottom: 1000px; 
+}
+
+.information-bar {
+    position:fixed; 
+    top: 0px; 
+    left: 35%; 
+    
+}
+
+.bar-link {
+    text-align:center; 
+    background-color: #a39586;
+    color: #FFF; 
+    padding: 10px; 
+    border-radius: 10px; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+.work-experience {
+    padding: 5.5%; 
+    color: gray; 
+}
+
+h4 {
+    padding-top: 50px; 
+    padding-left: 5%; 
+    font-size: 30px; ; 
+
+
+}
+h5 {
+    font-size: 20px; 
+}
+
+.indented-about {
+    padding-left: 7.5%; 
+    left: 7.5%; 
+
+}
+
+.no-gap {
+    margin: 0; 
+}
+
+p {
+    padding-left: 2.5%; 
+    padding-right: 10%; 
+}
+h3 {
+    font-size: 100px; 
+}
+
+.bar-link:hover {
+    padding: 20px; 
+}
+
+.bar-link:active {
+    color: #ffaa41; 
+}
+
+
+
