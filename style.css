@@ -8,6 +8,7 @@ body {
     position: fixed;
     top: 0px;
     left: 35%;
+    z-index: 999; 
 }
 
 .bar-link {
@@ -47,25 +48,21 @@ body {
 }
 
 .passage {
-    margin-left: 6%; 
-    margin-right: 10%; 
+    margin-left: 6%;
+    margin-right: 10%;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
-    background: #fffce2; 
-    
-   
-
+    background: #fffce2;
 }
 
 .link-bar {
-    width: 120%; 
-    height: 5%; 
-    position:fixed; 
-    top: 95%; 
-    left: -2%; 
+    width: 120%;
+    height: 5%;
+    position: fixed;
+    top: 95%;
+    left: -2%;
     background: #a39586;
     
-
 }
 
 a {
@@ -76,7 +73,7 @@ h4 {
     padding-top: 50px;
     padding-left: 5%;
     font-size: 30px;
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
 h5 {
