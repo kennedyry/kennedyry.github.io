@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #f5ffea;
     color: gray;
@@ -9,8 +7,8 @@ body {
 .information-bar {
     position: fixed;
     top: 0px;
-    left: 35%;
-    z-index: 999; 
+    left: 25%;
+    z-index: 999;
 }
 
 .bar-link {
@@ -31,6 +29,13 @@ body {
     color: #ffaa41;
 }
 
+.website-link {
+    padding: 5px;
+    margin: 10px;
+    background: #a39586;
+    color: white;
+    border-radius: 50px;
+}
 
 
 .moving-bar:hover {
@@ -57,7 +62,7 @@ body {
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     background: #fffce2;
-    
+    border-radius: 50px;
 }
 
 .link-bar {
@@ -67,7 +72,6 @@ body {
     top: 95%;
     left: -2%;
     background: #a39586;
-    
 }
 
 a {
@@ -75,14 +79,13 @@ a {
 }
 
 .programming-tab {
-    margin:10px; 
-    background-color:#ddf1ff;
-    color: black; 
-    font-size: 20px; 
-    text-align: center; 
-    border-radius: 30%; 
-    padding: 3px 10px 3px 10px; 
-    
+    margin: 10px;
+    background-color: #ddf1ff;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30%;
+    padding: 3px 10px 3px 10px;
 }
 
 h4 {
@@ -91,8 +94,6 @@ h4 {
     font-size: 30px;
     text-decoration: underline;
 }
-
-
 
 h5 {
     font-size: 20px;
