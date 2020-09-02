@@ -99,21 +99,6 @@ body {
     border-radius: 50px;
 }
 
-.logo {
-    width: 1.8%; 
-    height: 1.8%; 
-    padding: 10px; 
-    padding-left: 50px; 
-}
-
-.link-bar {
-    width: 120%;
-    height: 7.5%;
-    position: fixed;
-    top: 92.5%;
-    left: -2%;
-    background: #a39586;
-}
 
 a {
     text-decoration: none;
@@ -134,6 +119,13 @@ h4 {
     padding-left: 5%;
     font-size: 30px;
     text-decoration: underline;
+}
+
+
+.logo {
+    padding: 0px 50px 50px 0px; 
+    width: 50px; 
+    height: 50px; 
 }
 
 h5 {
