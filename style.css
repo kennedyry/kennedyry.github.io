@@ -1,6 +1,8 @@
 body {
     background-color: #f5ffea;
+
     color: gray;
+
     padding-bottom: 1000px;
 }
 
@@ -14,7 +16,9 @@ body {
 .bar-link {
     text-align: center;
     background-color: #a39586;
+
     color: #FFF;
+
     padding: 8px;
     margin-right: 10px;
     border-radius: 10px;
@@ -30,11 +34,41 @@ body {
 }
 
 .website-link {
-    padding: 5px;
+    padding: 5px 10px 5px 20px;
     margin: 10px;
+    margin-left: 50px; 
+    margin-right: 50px; 
+    width: 15%; 
+    height: max-content; 
     background: #a39586;
     color: white;
     border-radius: 50px;
+
+}
+
+.website-link:hover {
+    animation-name: link-expander; 
+    animation-duration: .5s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode:forwards; 
+}
+
+@keyframes link-expander {
+    0% {
+        border-radius: 60px; 
+        border-bottom: 0px solid white; 
+        border-top: 0px solid white; 
+    }
+
+    100% {
+        border-radius: 15px; 
+        border-bottom: 12px double grey; 
+        border-top: 12px double grey; 
+    }
+}
+
+.website-description {
+    width: 65%; 
 }
 
 
@@ -67,7 +101,7 @@ body {
 
 .link-bar {
     width: 120%;
-    height: 5%;
+    height: 10%;
     position: fixed;
     top: 95%;
     left: -2%;
