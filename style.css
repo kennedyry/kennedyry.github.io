@@ -99,11 +99,18 @@ body {
     border-radius: 50px;
 }
 
+.logo {
+    width: 40px; 
+    height: 40px; 
+    padding: 10px; 
+    padding-left: 50px; 
+}
+
 .link-bar {
     width: 120%;
-    height: 10%;
+    height: 7.5%;
     position: fixed;
-    top: 95%;
+    top: 92.5%;
     left: -2%;
     background: #a39586;
 }
